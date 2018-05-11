@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/addCgi/addCgi"  
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTextStyle": "black"
+  },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "text": "首页",
+          "iconPath":"./images/home.png",
+          "selectedIconPath":"./images/home_active.png"
+        },
+        {
+          "pagePath": "pages/addCgi/addCgi",
+          "text": "接口",
+          "iconPath": "./images/modle.png",
+          "selectedIconPath": "./images/modle_active.png"
+        },
+        {
+          "pagePath": "pages/index/index",
+          "text": "测试",
+          "iconPath": "./images/setting.png",
+          "selectedIconPath": "./images/setting_active.png"
+        }
+      ],
+      "selectedColor": "#d4237a"
+    }
+}
